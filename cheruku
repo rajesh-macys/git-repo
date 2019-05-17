@@ -7,4 +7,8 @@
   lineinfile: path=/etc/sysctl.conf line='net.ipv6.conf.default.disable_ipv6 = 1'
   notify:
     - reload sysctl
+    
+    Rajesh Cheruku
+    Kothagudem
+    HYD 500036
 
